@@ -1,0 +1,4 @@
+com\crm\qa\testcases\GmailInboxPageTest.class
+com\crm\qa\testcases\GmailLoginPageTest.class
+com\crm\qa\testcases\GmailHomePageTest.class
+com\crm\qa\testcases\GmailSendPageTest.class

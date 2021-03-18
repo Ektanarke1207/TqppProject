@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.GmailInboxPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.GmailInboxPageTest -->
+      <class name="com.crm.qa.testcases.GmailHomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.GmailHomePageTest -->
+      <class name="com.crm.qa.testcases.GmailLoginPageTest">
+        <methods>
+          <include name="LoginWithInvalidPasswordTest"/>
+          <include name="setUp"/>
+          <include name="LoginWithInvalidUserNameTest"/>
+          <include name="LoginWithBlankPasswordTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.GmailLoginPageTest -->
+      <class name="com.crm.qa.testcases.GmailSendPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="DeleteMailFromSentBoxTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.GmailSendPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

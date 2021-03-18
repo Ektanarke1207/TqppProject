@@ -1,0 +1,9 @@
+com\crm\qa\base\TestBase.class
+com\crm\qa\pages\GmailSendPage.class
+com\crm\qa\pages\GmailLoginPage.class
+com\crm\qa\pages\GmailHomePage.class
+com\crm\qa\util\GenerateLogs.class
+com\qa\ExtentReportListener\ExtentReporterNG.class
+com\crm\qa\util\TimeUtil.class
+ReadProp.class
+com\crm\qa\pages\GmailInboxPage.class
